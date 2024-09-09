@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
 	int m, n;
-	cin >> m >> n;
+	cin >> n >> m;
 	vector<int>result;
-	for (int i = 0; i < n; i++) { // vòng l?p dùng de xet tung dong
+	for (int i = 0; i < n; i++) { // vÃ²ng l?p dÃ¹ng de xet tung dong
 		int sum = 0;
 		for (int j = 0; j < m; j++){ // cac phan tu cho cot
 			int x;
